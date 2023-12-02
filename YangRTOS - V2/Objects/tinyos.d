@@ -1,0 +1,14 @@
+.\objects\tinyos.o: Source\tinyOS.c
+.\objects\tinyos.o: Source\tinyOS.h
+.\objects\tinyos.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\tinyos.o: C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include\ARMCM3.h
+.\objects\tinyos.o: C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h
+.\objects\tinyos.o: C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\tinyos.o: C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\tinyos.o: C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\tinyos.o: C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\tinyos.o: C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include\system_ARMCM3.h
+.\objects\tinyos.o: Source\time.h
+.\objects\tinyos.o: Source\tinyOS.h
+.\objects\tinyos.o: Source\primask.h
+.\objects\tinyos.o: Source\tlib.h

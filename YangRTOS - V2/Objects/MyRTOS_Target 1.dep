@@ -1,0 +1,75 @@
+Dependencies for Project 'MyRTOS', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\Source\main.c)(0x656ABA05)(-c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\Source-I.\RTE\_Target_1-IC:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (Source\tinyOS.h)(0x6568AA50)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include\ARMCM3.h)(0x5E8ED12C)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include\system_ARMCM3.h)(0x5E8ED12C)
+I (Source\primask.h)(0x6568AA7D)
+I (Source\tlib.h)(0x6568ACFC)
+I (Source\tconfig.h)(0x65682D53)
+I (Source\time.h)(0x6568AE12)
+F (.\Source\switch.c)(0x6568AA31)(-c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\Source-I.\RTE\_Target_1-IC:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_-o .\objects\switch.o --omf_browse .\objects\switch.crf --depend .\objects\switch.d)
+I (Source\tinyOS.h)(0x6568AA50)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include\ARMCM3.h)(0x5E8ED12C)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include\system_ARMCM3.h)(0x5E8ED12C)
+I (Source\primask.h)(0x6568AA7D)
+I (Source\tlib.h)(0x6568ACFC)
+I (Source\tconfig.h)(0x65682D53)
+F (.\Source\tinyOS.h)(0x6568AA50)()
+F (.\Source\time.c)(0x6568AE11)(-c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\Source-I.\RTE\_Target_1-IC:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_-o .\objects\time.o --omf_browse .\objects\time.crf --depend .\objects\time.d)
+I (Source\time.h)(0x6568AE12)
+I (Source\tinyOS.h)(0x6568AA50)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include\ARMCM3.h)(0x5E8ED12C)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include\system_ARMCM3.h)(0x5E8ED12C)
+I (Source\primask.h)(0x6568AA7D)
+I (Source\tlib.h)(0x6568ACFC)
+I (Source\tconfig.h)(0x65682D53)
+F (.\Source\time.h)(0x6568AE12)()
+F (.\Source\primask.c)(0x65648305)(-c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\Source-I.\RTE\_Target_1-IC:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_-o .\objects\primask.o --omf_browse .\objects\primask.crf --depend .\objects\primask.d)
+I (Source\primask.h)(0x6568AA7D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include\ARMCM3.h)(0x5E8ED12C)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include\system_ARMCM3.h)(0x5E8ED12C)
+F (.\Source\primask.h)(0x6568AA7D)()
+F (.\Source\tlib.h)(0x6568ACFC)()
+F (.\Source\tconfig.h)(0x65682D53)()
+F (.\Source\tnode.c)(0x65682922)(-c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\Source-I.\RTE\_Target_1-IC:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_-o .\objects\tnode.o --omf_browse .\objects\tnode.crf --depend .\objects\tnode.d)
+I (Source\tlib.h)(0x6568ACFC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+F (.\Source\tbitmap.c)(0x6567FA96)(-c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\Source-I.\RTE\_Target_1-IC:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_-o .\objects\tbitmap.o --omf_browse .\objects\tbitmap.crf --depend .\objects\tbitmap.d)
+I (Source\tlib.h)(0x6568ACFC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+F (.\Source\common.h)(0x6568AB13)()
+F (RTE\Device\ARMCM3\startup_ARMCM3.s)(0x5E8ED12C)(--cpu Cortex-M3 --li -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Target_1-IC:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include--pd "__UVISION_VERSION SETA 534" --pd "_RTE_ SETA 1" --pd "ARMCM3 SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_armcm3.lst --xref -o .\objects\startup_armcm3.o --depend .\objects\startup_armcm3.d)
+F (RTE\Device\ARMCM3\system_ARMCM3.c)(0x655DAC19)(-c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\Source-I.\RTE\_Target_1-IC:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_-o .\objects\system_armcm3.o --omf_browse .\objects\system_armcm3.crf --depend .\objects\system_armcm3.d)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include\ARMCM3.h)(0x5E8ED12C)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include\system_ARMCM3.h)(0x5E8ED12C)
