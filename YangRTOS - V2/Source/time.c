@@ -30,15 +30,19 @@ void tTimeTaskWakeUp(tTask* task){
 
 void tTaskSchedRdy(tTask* task){
 
-	taskTable[task->priority] = task;
+	tListAddLast(&(taskTable[task->priority]),&(task->linkNode));
 	tBitmapSet(&taskPrioBitmap,task->priority);
 
 }
 
 
 void tTaskSchedUnRdy(tTask* task){
-	taskTable[task->priority] = (tTask*)0;
-	tBitmapClear(&taskPrioBitmap,task->priority);
+	
+	tListRemove(&(taskTable[task->priority]),&(task->linkNode));
+	
+	if(tListCount(&(taskTable[task->priority])) == 0){
+		tBitmapClear(&taskPrioBitmap,task->priority);
+	}
 
 }
 
@@ -76,17 +80,26 @@ void tTaskSystemTickHandler(void){
 		
 		}
 	
+	if(--currentTask->slice == 0){
+		if(tListCount(&(taskTable[currentTask->priority])) > 0){
+			tListRemoveFirst(&(taskTable[currentTask->priority]));
+			tListAddLast(&(taskTable[currentTask->priority]),&(currentTask->linkNode));
+			
+			currentTask->slice = TINYOS_SLICE_MAX;
+		}
+	
 	}
 	
 	tTaskExitCritical(status);
 	tTaskSched();
 
 }
-
+}
 
 
 void SysTick_Handler(){
 	tTaskSystemTickHandler();
 
 }
+
 

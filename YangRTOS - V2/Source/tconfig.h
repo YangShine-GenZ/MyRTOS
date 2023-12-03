@@ -13,6 +13,9 @@
 #define TINYOS_TASK_STATE_DELAYED 			(1<<1)
 
 
+//时间片初始值(单位：时间片周期10ms)
+#define TINYOS_SLICE_MAX                    10
+
 
 
 

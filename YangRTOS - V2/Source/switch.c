@@ -9,7 +9,7 @@ tTask* currentTask;
 tTask* nextTask;
 tTask* IdleTask;
 
-tTask* taskTable[TINYOS_PRO_COUNT];
+tList taskTable[TINYOS_PRO_COUNT]; 
 
 
 uint8_t schedLockCount; //调度锁计数器
@@ -43,14 +43,18 @@ void tTaskInit(tTask* task, void (*entry)(void *),void *parms,tTaskStack *stack,
 	*(--stack) = (unsigned long)0x5;
 	*(--stack) = (unsigned long)0x4;
 	
-	
+	task->slice = TINYOS_SLICE_MAX;
 	task->stack = stack;
 	task->delayTicks = 0;
 	task->priority  = priority;
 	task->state = TINYOS_TASK_STATE_RDY;
-	tNodeInit(&(task->delayNode));
 	
-	taskTable[priority] = task;
+	tNodeInit(&(task->delayNode));
+	tNodeInit(&(task->linkNode));
+	tListAddFirst(&taskTable[priority],&(task->linkNode));
+	
+	
+	
 	tBitmapSet(&taskPrioBitmap,priority);
 	 
 		
@@ -62,16 +66,24 @@ void tTaskInit(tTask* task, void (*entry)(void *),void *parms,tTaskStack *stack,
 tTask* tTaskHighestReady(void){
 	
 	uint32_t highestPrio = tBitmapGetFirstSet(&taskPrioBitmap);
-	return taskTable[highestPrio];
+	
+	tNode *node = tListFirst(&taskTable[highestPrio]);
+	return tNodeParent(node,tTask,linkNode);
 
 }
 
 
 
 void tTaskSchedInit(void){
+	
+	int i;
 	tTaskSchedLockInit();
 	tBitmapInit(&taskPrioBitmap);
 	tTaskDelayedInit();
+	for(i = 0;i<TINYOS_PRO_COUNT;i++){
+		tListInit(&taskTable[i]);
+	}
+	
 
 }
 

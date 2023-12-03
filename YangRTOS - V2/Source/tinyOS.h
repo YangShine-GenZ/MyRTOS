@@ -34,10 +34,12 @@ typedef struct _BlockType_t{
 
 typedef struct _tTask{
 	tTaskStack *stack;
+	tNode linkNode;
 	uint32_t delayTicks;
 	tNode delayNode;
 	uint32_t priority;
 	uint32_t state;
+	uint32_t slice;
 }tTask;
 
 
@@ -49,7 +51,7 @@ extern tBitmap taskPrioBitmap;
 extern tList tTaskDelayedList;
 
 
-extern tTask* taskTable[TINYOS_PRO_COUNT];
+extern tList taskTable[TINYOS_PRO_COUNT]; 
 
 
 
