@@ -1,0 +1,272 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.34.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: tpy tpy, Ultron, LIC=UB4EI-T8MAG-PHP89-4BL70-LF284-S0ISM
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.34.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.34.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.163.9.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+F:\STM32_Project\YangRTOS - V4\MyRTOS.uvprojx
+Project File Date:  12/08/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+assembling startup_ARMCM3.s...
+compiling tbitmap.c...
+..\YangRTOS\Source\tlib.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\YangRTOS\Source\tbitmap.c: 1 warning, 0 errors
+compiling tnode.c...
+..\YangRTOS\Source\tlib.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\YangRTOS\Source\tnode.c: 1 warning, 0 errors
+compiling time.c...
+Source\primask.h(13): warning:  #1295-D: Deprecated declaration tTaskEnterCritical - give arg types
+  uint32_t tTaskEnterCritical();
+Source\tlib.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+Source\tconfig.h(32): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Event\eventModule.h(54): warning:  #1-D: last line of file ends without a newline
+  #endif
+Source\stimer.h(44): warning:  #1-D: last line of file ends without a newline
+  #endif
+Source\state.h(28): warning:  #1-D: last line of file ends without a newline
+  #endif
+Source\time.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Event\event.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+Source\time.c(40): warning:  #177-D: variable "i"  was declared but never referenced
+  	int i;
+Source\time.c: 9 warnings, 0 errors
+compiling mail.c...
+.\Source\primask.h(13): warning:  #1295-D: Deprecated declaration tTaskEnterCritical - give arg types
+  uint32_t tTaskEnterCritical();
+.\Source\tlib.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Source\tconfig.h(32): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Event\eventModule.h(54): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Source\stimer.h(44): warning:  #1-D: last line of file ends without a newline
+  #endif
+Event\event.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+Event\mail.h(37): warning:  #1-D: last line of file ends without a newline
+  #endif
+Event\mail.c(20): warning:  #550-D: variable "temp"  was set but never used
+  	uint32_t temp;
+Event\mail.c: 8 warnings, 0 errors
+compiling event.c...
+.\Source\primask.h(13): warning:  #1295-D: Deprecated declaration tTaskEnterCritical - give arg types
+  uint32_t tTaskEnterCritical();
+.\Source\tlib.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Source\tconfig.h(32): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Event\eventModule.h(54): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Source\stimer.h(44): warning:  #1-D: last line of file ends without a newline
+  #endif
+Event\event.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Source\state.h(28): warning:  #1-D: last line of file ends without a newline
+  #endif
+Event\event.c: 7 warnings, 0 errors
+compiling tflag.c...
+.\Source\primask.h(13): warning:  #1295-D: Deprecated declaration tTaskEnterCritical - give arg types
+  uint32_t tTaskEnterCritical();
+.\Source\tlib.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Source\tconfig.h(32): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Event\eventModule.h(54): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Source\stimer.h(44): warning:  #1-D: last line of file ends without a newline
+  #endif
+Event\event.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+Event\tflag.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif
+Event\tflag.c(47): warning:  #940-D: missing return statement at end of non-void function "tFlagGroupWait" 
+  uint32_t tFlagGroupWait(tFlagGroup* flagGroup,uint32_t waitType, uint32_t requestFlag,uint32_t *resultFlag,uint32_t waitTicks){}
+Event\tflag.c(51): warning:  #940-D: missing return statement at end of non-void function "tFlagGroupNoWaitGet" 
+  uint32_t tFlagGroupNoWaitGet(tFlagGroup* flagGroup,uint32_t waitType, uint32_t requestFlag,uint32_t *resultFlag){}
+Event\tflag.c(55): warning:  #1-D: last line of file ends without a newline
+  void tFlagGroupNotify(tFlagGroup* flagGroup,uint8_t isSet,uint32_t flag){}
+Event\tflag.c(15): warning:  #177-D: function "tFlagGroupCheckConsume"  was declared but never referenced
+  static uint32_t tFlagGroupCheckConsume(tFlagGroup* flagGroup,uint32_t type,uint32_t* flags){
+Event\tflag.c: 11 warnings, 0 errors
+compiling sem.c...
+.\Source\primask.h(13): warning:  #1295-D: Deprecated declaration tTaskEnterCritical - give arg types
+  uint32_t tTaskEnterCritical();
+.\Source\tlib.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Source\tconfig.h(32): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Event\eventModule.h(54): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Source\stimer.h(44): warning:  #1-D: last line of file ends without a newline
+  #endif
+Event\sem.h(32): warning:  #1-D: last line of file ends without a newline
+  #endif
+Event\event.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+Event\sem.c: 7 warnings, 0 errors
+compiling primask.c...
+Source\primask.h(13): warning:  #1295-D: Deprecated declaration tTaskEnterCritical - give arg types
+  uint32_t tTaskEnterCritical();
+Source\primask.c(19): warning:  #1-D: last line of file ends without a newline
+  }
+Source\primask.c: 2 warnings, 0 errors
+compiling switch.c...
+Source\primask.h(13): warning:  #1295-D: Deprecated declaration tTaskEnterCritical - give arg types
+  uint32_t tTaskEnterCritical();
+Source\tlib.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+Source\tconfig.h(32): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Event\eventModule.h(54): warning:  #1-D: last line of file ends without a newline
+  #endif
+Source\stimer.h(44): warning:  #1-D: last line of file ends without a newline
+  #endif
+Source\switch.c: 5 warnings, 0 errors
+compiling mutex.c...
+.\Source\primask.h(13): warning:  #1295-D: Deprecated declaration tTaskEnterCritical - give arg types
+  uint32_t tTaskEnterCritical();
+.\Source\tlib.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Source\tconfig.h(32): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Event\eventModule.h(54): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Source\stimer.h(44): warning:  #1-D: last line of file ends without a newline
+  #endif
+Event\event.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+Event\mutex.h(23): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Source\state.h(28): warning:  #1-D: last line of file ends without a newline
+  #endif
+Event\mutex.c: 8 warnings, 0 errors
+compiling main.c...
+Source\primask.h(13): warning:  #1295-D: Deprecated declaration tTaskEnterCritical - give arg types
+  uint32_t tTaskEnterCritical();
+Source\tlib.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+Source\tconfig.h(32): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Event\eventModule.h(54): warning:  #1-D: last line of file ends without a newline
+  #endif
+Source\stimer.h(44): warning:  #1-D: last line of file ends without a newline
+  #endif
+Source\state.h(28): warning:  #1-D: last line of file ends without a newline
+  #endif
+Source\time.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Event\event.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Event\sem.h(32): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Event\mail.h(37): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Event\block.h(28): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Event\tflag.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif
+Source\common.h(22): warning:  #1-D: last line of file ends without a newline
+  #endif
+Source\main.c: 13 warnings, 0 errors
+compiling stimer.c...
+Source\tlib.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+Source\stimer.h(44): warning:  #1-D: last line of file ends without a newline
+  #endif
+Source\primask.h(13): warning:  #1295-D: Deprecated declaration tTaskEnterCritical - give arg types
+  uint32_t tTaskEnterCritical();
+Source\tconfig.h(32): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Event\eventModule.h(54): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Event\sem.h(32): warning:  #1-D: last line of file ends without a newline
+  #endif
+Source\stimer.c: 6 warnings, 0 errors
+compiling state.c...
+Source\primask.h(13): warning:  #1295-D: Deprecated declaration tTaskEnterCritical - give arg types
+  uint32_t tTaskEnterCritical();
+Source\tlib.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+Source\tconfig.h(32): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Event\eventModule.h(54): warning:  #1-D: last line of file ends without a newline
+  #endif
+Source\stimer.h(44): warning:  #1-D: last line of file ends without a newline
+  #endif
+Source\state.h(28): warning:  #1-D: last line of file ends without a newline
+  #endif
+Source\state.c: 6 warnings, 0 errors
+compiling block.c...
+.\Source\primask.h(13): warning:  #1295-D: Deprecated declaration tTaskEnterCritical - give arg types
+  uint32_t tTaskEnterCritical();
+.\Source\tlib.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Source\tconfig.h(32): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Event\eventModule.h(54): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Source\stimer.h(44): warning:  #1-D: last line of file ends without a newline
+  #endif
+Event\event.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+Event\block.h(28): warning:  #1-D: last line of file ends without a newline
+  #endif
+Event\block.c: 7 warnings, 0 errors
+compiling system_ARMCM3.c...
+linking...
+Program Size: Code=2856 RO-data=1248 RW-data=56 ZI-data=26560  
+FromELF: creating hex file...
+".\Objects\MyRTOS.axf" - 0 Error(s), 91 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+   * Component: Startup Version: 1.2.2
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+
+   * Component: ARM::Device:Startup:1.2.2
+      Source file:   Device\ARM\ARMCM3\Source\ARM\startup_ARMCM3.s
+      Source file:   Device\ARM\ARMCM3\Source\system_ARMCM3.c
+      Include file:  Device\ARM\ARMCM3\Include\ARMCM3.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

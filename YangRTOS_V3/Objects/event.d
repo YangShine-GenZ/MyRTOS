@@ -1,0 +1,17 @@
+.\objects\event.o: Event\event.c
+.\objects\event.o: Event\event.h
+.\objects\event.o: .\Source\tinyOS.h
+.\objects\event.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\event.o: C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include\ARMCM3.h
+.\objects\event.o: C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h
+.\objects\event.o: C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\event.o: C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\event.o: C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\event.o: C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\event.o: C:\Users\zmhyzmsdtpya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include\system_ARMCM3.h
+.\objects\event.o: .\Source\primask.h
+.\objects\event.o: .\Source\tlib.h
+.\objects\event.o: .\Source\tconfig.h
+.\objects\event.o: .\Event\eventModule.h
+.\objects\event.o: .\Source\stimer.h
+.\objects\event.o: .\Source\state.h
